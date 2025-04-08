@@ -18,9 +18,9 @@ surfaces.append(surface)
 with open(name, 'r') as obj_file:
     for line in obj_file:
         tokens = line.split()
+        #print(f'Processing: 1')
         if tokens[0] == 'v':
             vertices.append((tokens[1], tokens[2], tokens[3]))
-            
         elif tokens[0] == 'f':
             zero = -1
             prev = int(tokens[-1].split('/')[0])-1

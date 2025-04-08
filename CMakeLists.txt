@@ -88,6 +88,9 @@ add_toy(eighty)
 add_toy(tesseract)
 add_toy(flight)
 add_toy(fireworks)
+add_toy(brain)
+add_toy(brain2)
+add_toy(brain3)
 
 
 install(DIRECTORY ${CMAKE_SOURCE_DIR}/models/ DESTINATION ${MULTIVOX_INSTALL_DIR}/models)
